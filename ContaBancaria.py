@@ -17,7 +17,7 @@ class ContaBancaria:
             if valor <= self.saldo:
                 self.saldo -= valor 
                 destinatario.depositar (valor)
-                print(f"Transferencia de R$(valor) realizada. Novo saldo: R${self.saldo}")
+                print(f"Transferencia de R${valor} realizada. Novo saldo: R${self.saldo}")
         else: 
             print("Valor inválido para transferência. Transfêrencia não realizada.")
             
